@@ -1,0 +1,249 @@
+.container {
+    width:100%
+  }
+  *{
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+  hr{
+    background-color: #000;
+  }
+  .main-top{
+    padding: 92px 150px 40px 150px;
+    height: 50px;
+    background-color: #f2f0f0;
+
+  }
+  .product-main{
+    padding: 50px 150px;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+  }
+ 
+  .profile-card{
+    text-align: center;
+  
+    height: 400px;
+  }
+  .profile-card:hover{
+    border: 1px solid#999999;
+  }
+  .title-product{
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  .title-product span{
+   
+   margin-left: 12%;
+   font-size: 16px;
+   
+  }
+  .list-products{
+    padding: 100px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+  .list-product{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  }
+  .product-detail{
+   margin: 50px 170px;
+   display: grid;
+   grid-template-columns: 5fr 4fr;
+  }
+  .profile-product{
+    padding: 0px 500px;
+  }
+  .title-show{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .title-show hr{
+    margin-left: 500px ;
+    margin-right: 500px ;
+    height: 2px;
+    color: #000;
+  }
+  
+  .title-detailproduct{
+    width: 100%;
+  
+    background-color: #f1f1f1;
+  }
+  .profile-products{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+  }
+  .card-body span{
+     font-size: 20px;
+  }
+  .card-body .card-name{
+     font-size: 15px;
+  }
+  .btn{
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+  }
+  .btn:hover{
+    background-color: #fff;
+    border: 1px solid#000;
+  }
+  #btn-click {
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    background-color:#000;
+    color: #fff;
+    font-size: 17px;
+ 
+  }
+  #btn-click:hover{
+    background-color: #fff;
+    border: 1px solid#000;
+    color: #000;
+  }
+  .text-muted span{
+      color: #dedede;
+      text-decoration: line-through;
+  }
+  .price-product{
+    text-align: center;
+  }
+  .price-product h5{
+    float:left;
+  }
+  
+ 
+  #menu-product li{
+    border-bottom: 2px solid #dedede;
+    padding:10px 0px;
+    list-style: none;
+  }
+  #menu-product  a{
+    text-decoration: none;
+    color: #000;
+  }
+  .option-price{
+    padding-top: 50px;
+  }
+  .content-product{
+    padding: 30px 150px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+  }
+  #sidebarMenu{
+    background-color: #dedede;
+    margin-right: 50px;
+    border: 1px solid#000;
+  }
+  #sidebarMenu li{
+    text-align: center;
+    padding: 10px 0px;
+  
+    list-style: none;
+  }
+  #sidebarMenu li a{
+    color: #000;
+    text-decoration: none;
+  }
+  #sidebarMenu li a:hover{
+    color: #966969;
+  }
+  .Home-siderbar{
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
+    background-color: #8e8e8e;
+  }
+  .btns{
+    background-color: #fff;
+    border: 1px solid#000;  
+    font-size: 12px; 
+    padding: .375rem .75rem;
+    font-size: 12px;
+    border-radius: .25rem;
+  }
+  .btns:hover{
+    background-color: #8e8e8e;
+    border: 1px solid#fff;  
+    color: #fff;
+  }
+  .card-body span{
+    font-size: 16px;
+    color: #857d7d;
+  }
+  .card-body p{
+    font-size: 20px;
+  }
+  #form-add span{
+    color: red;
+  }
+  
+  

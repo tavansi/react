@@ -1,0 +1,69 @@
+
+#login-user{
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family:'Quicksand', sans-serif;
+    padding: 0px 170px;
+}
+
+.title-login{
+   padding-top: 280px;
+   padding-bottom: 350px;
+    
+    border-right: 1px solid #ededed;
+}
+.title-login h1{
+    font-size: 40px;
+}
+.title-login hr{
+    margin-top: 0px;
+    height: 4px;
+    width: 70px;
+    float: left;
+    background-color: #060606;
+}
+.check-login{
+    padding-left: 70px;
+    padding-top: 230px;
+}
+.email-user input{
+    margin-bottom: 30px;
+    border: none;
+    height: 55px;
+    width: 100%;
+    padding-left: 15px;
+    background-color: #ededed;
+    border: 1px solid#fff;
+}
+.email-user input:hover{
+    background-color: #fff;
+    border: 1px solid#ededed;
+}
+.button-login input{
+    height: 47px;
+    padding: 0 30px;
+    background-color: #000;
+    color:#fff;
+    border: none;
+    font-size: 17px ;
+}
+.button-login input:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid#000;
+}
+.click-login{
+    display: grid;
+    grid-template-columns: 165px 1fr;
+}
+.registration-user a{
+  margin-top: 6px;
+  text-decoration: none;
+  color: #000;
+}
+.registration-user{
+    padding-top: 5px;
+    color: #959898;
+}
+

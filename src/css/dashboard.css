@@ -1,0 +1,41 @@
+.row{
+    box-sizing: border-box;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+.list-admin{
+    height: 1000px;
+    padding-right: 0px;
+    background-color: #212529;
+    padding-left: 60px;
+}
+
+.list-admin ul li{
+   list-style: none;
+   padding: 15px 20px;
+
+}
+.list-admin ul li:first-child{
+   margin-bottom: 20px;
+   
+ }
+.list-admin ul li a{
+    color: #fff;
+   text-decoration: none;
+    padding: 15px 20px;
+ }
+.list-admin ul li:hover{
+    background-color: #fff;
+    text-decoration: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+      color: #000;
+  }
+  .list-admin ul li:hover a{
+    color: #000;
+  }
+  .profile-admin{
+        padding-left: 20px;
+  }
